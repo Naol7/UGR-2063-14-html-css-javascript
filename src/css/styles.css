@@ -90,6 +90,7 @@
   .footer 
   footer {
     position: relative;
+    width:100%;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8); 
     text-align: center;
@@ -175,6 +176,11 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    position:relative;
+    top:0.05em;
+    margin-left: 20px;
+    margin-top:20px;
+    margin-bottom: 7px;
   }
   
   .previous-button:hover,
@@ -227,11 +233,9 @@
     margin-top: 5px;
   }
   #music{
-    margin-top:5px;
+    margin-top:8px;
   }
-  iframe{
-    background:white;
-  }
+
   .profile {
     width: 200px;
     height: 200px;
