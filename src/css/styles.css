@@ -1,0 +1,282 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-image: url('https://w0.peakpx.com/wallpaper/639/3/HD-wallpaper-dark-lines-black-dark-super-background-lines-navy-blue.jpg');
+    background-size: cover;
+    background-position:center;
+    color: white;
+  }
+  h1{
+    color:white;
+    font-size:75px;
+    margin: 20px 0 20px;
+  }
+  video{
+    width:50%;
+    height:auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5%;
+    margin-bottom: 1em;
+  }
+  img{
+    width:100%;
+    height:auto;
+  }
+  span{
+    color: red;
+  }
+  h2, h3{
+    color: white;
+  }
+  .abt{
+    display:flex;
+    justify-content:center;
+    font-size:70px;
+  }
+  
+  /* header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5em;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    margin-top: 1em;
+  }
+  
+  header nav ul li {
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid;
+    text-decoration: none;
+    color: white; 
+    transition: all 0.3s;
+  }
+  
+  header nav ul li a:link {
+    color: white;
+  }
+  
+  header nav ul li a:visited {
+    color: purple;
+  }
+  
+  header nav ul li a:focus {
+    color: red;
+  }
+  
+  header nav ul li a:hover {
+    color: orange;
+  }
+  
+  header nav ul li a:active {
+    color: aqua;
+  } */
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  
+  aside {
+    width: 15%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  aside nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color:rgb(225, 173, 42);
+  }
+  
+  aside nav ul li {
+    margin-bottom: 5%;
+    
+  }
+  
+  aside nav ul li a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  aside nav ul li a:hover {
+    color: firebrick;
+  }
+  .footer{
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    justify-content: center;
+  
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    text-align: center;
+    padding: 1em;
+    border-top: 2px solid transparent;
+  }
+  
+  footer nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+  
+  footer nav ul li {
+    margin: 0.01em;
+  }
+  
+  footer nav ul li a {
+    text-decoration: none;
+    color: white; 
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    text-transform: uppercase;
+  }
+  
+  footer nav ul li a:hover {
+    border-bottom-color: firebrick;
+  }
+  
+  .container {
+    text-align: right;
+  }
+  
+  
+  .form {
+    max-width: 300px; 
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button.submit {
+    display: block;
+    width: 50%;
+    padding: 7px;
+    background-color: darkblue;
+    color: #fff;
+    border:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit:hover {
+    background-color: #45a049;
+  }
+  .container {
+    text-align: center;
+  }
+  
+  .previous-btn,
+  .next-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: darkblue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .previous-button:hover,
+  .next-button:hover {
+    background-color: darkblue;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  thead {
+    background-color: black;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: black;
+  }
+  .bar{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  figure {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  blockquote {
+    font-size: 18px;
+    font-style: italic;
+    
+    
+    padding: 10px;
+    margin-top: 5px;
+  }
+  #music{
+    margin-top:5px;
+  }
+  frame{
+    background:white;
+  }
+  .profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }

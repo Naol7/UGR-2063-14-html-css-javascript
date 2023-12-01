@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Naol</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 <body>
    <header>
-    <nav>
         <h2 class="logo">Naol's <span>Portfolio</span></h2>
-        <ul>
-            <li> <a href="home.html" target="_blank">Home</a></li>
-            <li><a href="about.html" target="_blank">About</a></li>
-            <li><a href="hobbies.html" target="_blank">Hobbies</a></li>
-            <li><a href="contact.html" target="_blank">Contact</a></li>
-            <li><a href="cv.html" target="_blank">CV</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <div class="menu-icon">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+        </nav>
 </header>
     <main class="main">
         <h2 id="abt">About <span>Me</span></h2>
@@ -80,8 +78,9 @@
         </ul>
     </nav>
 </aside>
-<button onclick="window.location.href='index.html'">previous</button>
-<button onclick="window.location.href='hobbies.html'">Next</button>
+<div class="container"><button class="previous-btn" onclick="window.location.href='home.html'">previous</button>
+    <button class="next-btn" onclick="window.location.href='hobbies.html'">Next</button>
+</div>
 <footer>
     <nav>
         <ul>
