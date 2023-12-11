@@ -1,10 +1,10 @@
-
+/* box-model */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+  /* Typography and Color */
   body {
     background-image: url('https://w0.peakpx.com/wallpaper/639/3/HD-wallpaper-dark-lines-black-dark-super-background-lines-navy-blue.jpg');
     background-size: cover;
@@ -12,16 +12,7 @@
     color: white;
     font-family: 'Poppins', sans-serif;
   }
-  h1{
-    color:white;
-    font-size:75px;
-    margin: 20px 0 20px;
-  }
-  video{
-    width:50%;
-    height:auto;
-  }
-  
+  /* Header */
   header {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -67,16 +58,11 @@
   header nav ul li:first-child {
     margin-left: 0;
   }
+  /* Content  */
   main {
     display: flex;
     justify-content: space-between;
     padding: 0 5%;
-  }
-  main {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
-    clear: left;
   }
   span{
     color: red;
@@ -214,7 +200,7 @@
   }
   /* Aside */
   aside {
-    width: 10%;
+    width: 20%;
     height: 30vh;
     padding: 2%;
     position: relative;
@@ -246,14 +232,8 @@
     color: red;
   }
   /* footer */
-  .footer {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-  }
   
-  footer {
+  footer{
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
@@ -287,34 +267,47 @@
     transform: translateY(-3px);
     transition: color 0.3s, border-bottom 0.3s, transform 0.3s; 
   }
+  .footer-home{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
   /* Responsive Design */
-  @media only screen and (max-width: 767px) {
-  .header__menu-icon {
-      display: block;
+@media only screen and (max-width: 767px) {
+.header__menu-icon {
+    display: block;
         
     }
-  .header__bar{
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-  }
-  header nav ul {
-      display: none;
-    }
-  figure img{
-    max-width: 100%;
-    margin-bottom: 10px;
-    width:100%
-    }
-  aside{
-    display:none;
-    }    
-  footer nav ul {
-     display: block;
-    }
+.header__bar{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+header nav ul {
+    display: none;
+}
+figure img{
+  max-width: 100%;
+  margin-bottom: 10px;
+  width:100%
+}
+aside{
+ display:none;
+}    
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+    
+footer nav ul {
+  display: block;
+}
   
-    }
+}
     
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
   
