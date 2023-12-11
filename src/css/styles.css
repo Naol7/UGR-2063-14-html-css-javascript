@@ -80,6 +80,9 @@
     height: auto;
     border-radius: 10%;
   }
+  audio{
+    margin-top: 10px;
+  }
   .table {
     width: 100%;
     border-collapse: collapse;
@@ -273,12 +276,11 @@
     text-align: center;
     width: 100%;
   }
-  /* Responsive Design */
+  /* Responsive Design for mobile */
 @media only screen and (max-width: 767px) {
 .header__menu-icon {
     display: block;
-        
-    }
+}
 .header__bar{
   width: 35px;
   height: 5px;
