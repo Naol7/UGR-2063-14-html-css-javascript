@@ -8,16 +8,23 @@
 </head>
 <body>
     <div class="page">
-         <header>
-            <h2 class="logo">Naol's <span>Portfolio</span></h2>
+        <header class="header">
+            <h2 class="header__logo">Naol's <span>Portfolio</span></h2>
             <nav>
-                <div class="menu-icon">
-                  <div class="bar"></div>
-                  <div class="bar"></div>
-                  <div class="bar"></div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                </ul>
+                <div class="header__menu-icon">
+                    <div class="header__bar"></div>
+                    <div class="header__bar"></div>
+                    <div class="header__bar"></div>
                 </div>
             </nav>
-    </header>
+        </header>
         <section class="content">
                 <h3>Hello, My Name is</h3>
                 <h1>Naol Gezahegne</h1>
@@ -25,7 +32,7 @@
         </section>
     </div>
     <div class="container">
-        <button class="next-btn" onclick="window.location.href='about.html'">Next</button>
+        <button class="container__button container__button--next" onclick="window.location.href='about.html'">Next</button>
     </div>
 
     <footer class="footer">

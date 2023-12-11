@@ -6,16 +6,33 @@
     <title>About Naol</title>
     <link rel="stylesheet" href="css/styles.css">
 <body>
-   <header>
-        <h2 class="logo">Naol's <span>Portfolio</span></h2>
+    <header class="header">
+        <h2 class="header__logo">Naol's <span>Portfolio</span></h2>
         <nav>
-            <div class="menu-icon">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+            <div class="header__menu-icon">
+                <div class="header__bar"></div>
+                <div class="header__bar"></div>
+                <div class="header__bar"></div>
             </div>
         </nav>
-</header>
+    </header>
+    <aside>
+        <h3>Go to</h3>
+        <nav>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#inspirations">Inspirations</a></li>
+                <li><a href="#places">Places to visit</a></li>
+            </ul>
+        </nav>
+    </aside>
 <main class="main">
 <h2 id="abt">About <span>Me</span></h2>
 </main>
@@ -69,18 +86,9 @@
     </table>
     <p>here's a short video of the Bale Mountains National Park</p>
     <video src="images/balePark.mp4" controls>Bale National</video>
-
-<aside>
-    <nav>
-        <ul>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#inspirations">Inspirations</a></li>
-            <li><a href="#places">Places to visit</a></li>
-        </ul>
-    </nav>
-</aside>
-<div class="container"><button class="previous-btn" onclick="window.location.href='home.html'">previous</button>
-    <button class="next-btn" onclick="window.location.href='hobbies.html'">Next</button>
+<div class="container">
+    <button class="container__button container__button--previous" onclick="window.location.href='home.html'">Previous</button>
+    <button class="container__button container__button--next" onclick="window.location.href='hobbies.html'">Next</button>
 </div>
 <footer>
     <nav>

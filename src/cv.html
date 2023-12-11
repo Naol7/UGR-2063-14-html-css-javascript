@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h2 class="logo">Naol's <span>Portfolio</span></h2>
+    <header class="header">
+        <h2 class="header__logo">Naol's <span>Portfolio</span></h2>
         <nav>
-            <div class="menu-icon">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+            <div class="header__menu-icon">
+                <div class="header__bar"></div>
+                <div class="header__bar"></div>
+                <div class="header__bar"></div>
             </div>
         </nav>
-</header>
+    </header>
 <section id="cv">
     <h2>Curriculum Vitae</h2>
     <div class="personal-info">
@@ -38,7 +45,7 @@
         </ul>
     </div>
     
-    <div class="Highschool">
+    <div class="highschool">
         <h3>Highschool</h3>
         <p>Burka Harbu Secondary School(2017-2020) </p>
         <p>My Highschool Transcript</p>
@@ -47,7 +54,7 @@
 
     </div>   
 </section>
-<button class="previous-btn" onclick="window.location.href='contact.html'">Previous</button>
+<button class="container__button container__button--previous"onclick="window.location.href='contact.html'">Previous</button>
 
     <footer class="footer">
         <nav>
