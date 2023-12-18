@@ -287,7 +287,11 @@
   margin: 6px 0;
 }
 header nav ul {
-    display: none;
+  display: none;
+  transition: all 0.5s ease;
+}
+header nav ul.active {
+  display:block;
 }
 figure img{
   max-width: 100%;

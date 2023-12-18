@@ -12,7 +12,7 @@ function submitForm() {
   })
   .then(response => response.text())
   .then(data => {
-      console.log(data);  // Do something with the response
+      console.log(data); 
   })
   .catch(error => {
       console.error('Error:', error);
